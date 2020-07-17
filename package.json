@@ -2,7 +2,7 @@
   "name": "casite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://timseifer.github.io/personal-website/",
+  "homepage": "https://timseifer.github.io/personal-website/#/Parallaxe",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -10,6 +10,7 @@
     "gsap": "^3.4.0",
     "react": "^16.13.1",
     "react-animate-on-scroll": "^2.1.5",
+    "react-bootstrap": "^1.2.2",
     "react-dom": "^16.13.1",
     "react-pose": "^4.0.10",
     "react-reveal": "^1.2.2",
