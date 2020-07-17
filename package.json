@@ -2,6 +2,7 @@
   "name": "casite",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://timseifer.github.io/personal-website/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -12,6 +13,7 @@
     "react-dom": "^16.13.1",
     "react-pose": "^4.0.10",
     "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-spring": "^8.0.27",
     "react-use": "^15.3.2",

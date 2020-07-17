@@ -172,13 +172,6 @@ New York, New York
 </ParallaxLayer>
 
 
-
-         
-         
-         
-                    
-
-
 </Parallax>
 
 )}
