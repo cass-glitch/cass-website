@@ -8,8 +8,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 class App extends Component {
 render() {    
   return (
-       <React.Fragment>
-      <Nav.Link href="/personal-website/#/Parralaxe"></Nav.Link>
+     <React.Fragment>
       <Router>
                <Switch>
                <Route exact path= "/Parallaxe" component={Parallaxe} />
