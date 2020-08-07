@@ -8,13 +8,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 class App extends Component {
 render() {    
   return (
-     <React.Fragment>
-      <Router>
-               <Switch>
-               <Route exact path= "/Parallaxe" component={Parallaxe} />
-               </Switch>
-     </Router>
- </React.Fragment>
+     <Parallaxe />
     
   );
 }

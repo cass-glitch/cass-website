@@ -16,6 +16,8 @@ import Zoom from 'react-reveal/Zoom';
 import {useTransition, animated} from 'react-spring';
 import {Toggle} from './Toggle';
 import posed from 'react-pose';
+import { Motion } from './Motion';
+
 
 class Parralax extends React.Component {
     render() {
@@ -29,71 +31,74 @@ class Parralax extends React.Component {
     });
     
   return (
-      
-      <Parallax pages={8} ref={ref => (this.parallax = ref)} class = "parr" style = {{ width: '100%' ,
+      <React.Fragment>
+      <Parallax pages={10} ref={ref => (this.parallax = ref)} class = "parr" style = {{ width: '100%' ,
     height: '100%'}}>
 <Layout>
 
-    <ParallaxLayer offset = {0} speed = {0} factor = {8} style={{ backgroundColor: '#000000', opacity: 1}} />
-    <ParallaxLayer offset = {0} speed = {-.3}>
+    <ParallaxLayer offset = {0} speed = {0} factor = {10} style={{ backgroundColor: '#000000', opacity: 1}} />
+
+    <ParallaxLayer offset = {0} speed = {-.2}>
+        
     <span style = {{ marginLeft: '0%'}} class = {"Image8"}>
         <img src={require('./Assets/Photo7.jpg')} class = {"Image8"} alt = "First Image"/>
-    </span>    
+    </span>   
+
     </ParallaxLayer>
-    
-    <ParallaxLayer offset = {1.359} speed = {-.3}>
+        
+    <ParallaxLayer offset = {1.359} speed = {-.2}>
     <span style = {{ marginLeft: '0%'}} class = {"Image"}>
-        <img src={require('./Assets/Helping.jpg')} alt = "Helping at Boys and Girls Club"/>
+        <img src={require('./Assets/Helping.jpg')} class = {"Image"} alt = "Helping at Boys and Girls Club"/>
     </span>    
     </ParallaxLayer>
     <Zoom when={true}>
-    <ParallaxLayer offset = {3} speed = {-.3}>
+    <ParallaxLayer offset = {3} speed = {-.2}>
     <span style = {{ marginLeft: '0%'}} class = {"Image4"}>
         <img src={require('./Assets/Photo4.jpg')} class = {"Image4"} alt = "New York New York"/>
     </span>    
     </ParallaxLayer>
 </Zoom>
     <Zoom when={true}>
-    <ParallaxLayer offset = {3} speed = {-.3}>
+    <ParallaxLayer offset = {3} speed = {-.2}>
     <span style = {{ marginLeft: '53%'}} class = {"Image1"}>
         <img src={require('./Assets/Photo1.jpg')} class = {"Image1"} alt = "New York Me"/>
     </span>    
     </ParallaxLayer>
     
-    <ParallaxLayer offset = {3.5} speed = {-.3}>
+    <ParallaxLayer offset = {3.5} speed = {-.2}>
     <span style = {{ marginLeft: '53%'}} class = {"Image2"}>
-        <img src={require('./Assets/Photo2.jpg')} class = {"Image2"} alt = "New York Me"/>
+        <img src={require('./Assets/Photo2.jpg')} class = {"Image2"} alt = "New York boat pic"/>
     </span>    
     </ParallaxLayer>
 </Zoom>
 
-<ParallaxLayer offset = {7.5} speed = {-.3}>
+<ParallaxLayer offset = {9.0} speed = {-.2}>
 <span style = {{ marginLeft: '0%'}} class = {"Image9"}>
     <img src={require('./Assets/Photo9.jpg')} class = {"Image9"} alt = "Abstract Image New York Museum"/>
 </span>    
 </ParallaxLayer>
     
     
-    <ParallaxLayer offset = {4.36} speed = {-.3}>
+    <ParallaxLayer offset = {4.27} speed = {-.2}>
     <span style = {{ marginLeft: '0%'}} class = {"Chalkboard"}>
         <img src={require('./Assets/Best_ChalkBoard.jpg')} class = {"Chalkboard"} alt = "Chalkboard Nucleotides"/>
     </span>    
     </ParallaxLayer>
     
-    <ParallaxLayer offset = {5.45} speed = {-.3}>
+    <ParallaxLayer offset = {5.45} speed = {-.2}>
     <span style = {{ marginLeft: '30%'}} class = {"JHU1"}>
         <img src={require('./Assets/JHU1.jpg')} class = {"JHU1"} alt = "jonny hop building"/>
     </span>    
     </ParallaxLayer>
-    <ParallaxLayer offset = {5.45} speed = {-.3}>
+    <ParallaxLayer offset = {5.45} speed = {-.2}>
     <span class = {"JHU2"}>
         <img src={require('./Assets/JHU2.jpg')} class = {"JHU2"} alt = "jonny hop people friends"/>
     </span>    
     </ParallaxLayer>
     
-    <ParallaxLayer offset = {6.29} speed = {-.3}>
+    <ParallaxLayer offset = {6.20} speed = {-.2}>
     <span class = {"JHU3"}>
-        <img src={require('./Assets/JHU3.JPG')} class = {"JHU3"} alt = "jonny hop people friends"/>
+        <img src={require('./Assets/JHU3.JPG')} class = {"JHU3"} alt = "jonny hop helping person"/>
     </span>    
     </ParallaxLayer>
     
@@ -149,10 +154,21 @@ Hagerstown, MD
 New York, New York
 </h1>
     </ParallaxLayer>
+    <ParallaxLayer offset = {4.27} speed = {-.2} style = {{ marginLeft: '10%'}}>
+<h1>
+Academics
+</h1>
+    </ParallaxLayer>
+    <ParallaxLayer offset = {5.45} speed = {-.2} style = {{ marginLeft: '10%'}}>
+<h1>
+Johns Hopkins University
+</h1>
+    </ParallaxLayer>
+    
 
 
 <ParallaxLayer offset = {2.82} speed = {-.2} style = {{ marginLeft: '30%'}}>
-    <span onClick={() => this.parallax.scrollTo(4.6)}>
+    <span onClick={() => this.parallax.scrollTo(4.29)}>
          <Box className="Circle" />
     </span>
 </ParallaxLayer>
@@ -162,17 +178,31 @@ New York, New York
          <Box className="Circle" />
     </span>
 </ParallaxLayer>
+<ParallaxLayer offset = {4.29} speed = {-.2} style = {{ marginLeft: '20.5%'}}>
+    <span onClick={() => this.parallax.scrollTo(5.47)}>
+         <Box className="Circle" />
+    </span>
+</ParallaxLayer>
+<ParallaxLayer offset = {5.47} speed = {-.2} style = {{ marginLeft: '34%'}}>
+    <span onClick={() => this.parallax.scrollTo(6.3)}>
+         <Box className="Circle" />
+    </span>
+</ParallaxLayer>
+         
+         
 
-<ParallaxLayer offset = {7.8} speed = {0}>
+
+<ParallaxLayer offset = {9.92} speed = {0}>
 <span style = {{ marginLeft: '30%'}}>
     <h2>
-    Coded By Tim Seifert, 2020, powered by react-spring
+    By Tim Seifert, 2020, powered by react-spring
 </h2>
 </span>    
 </ParallaxLayer>
 
-
 </Parallax>
+</React.Fragment>
+
 
 )}
 
