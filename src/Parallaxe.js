@@ -72,7 +72,7 @@ class Parralax extends React.Component {
     </ParallaxLayer>
 </Zoom>
 
-<ParallaxLayer offset = {9.0} speed = {-.2}>
+<ParallaxLayer offset = {9.5} speed = {-.2}>
 <span style = {{ marginLeft: '0%'}} class = {"Image9"}>
     <img src={require('./Assets/Photo9.jpg')} class = {"Image9"} alt = "Abstract Image New York Museum"/>
 </span>    
@@ -101,6 +101,17 @@ class Parralax extends React.Component {
         <img src={require('./Assets/JHU3.JPG')} class = {"JHU3"} alt = "jonny hop helping person"/>
     </span>    
     </ParallaxLayer>
+    <ParallaxLayer offset = {7.22} speed = {-.2}>
+    <span class = {"Scott1"}>
+        <img src={require('./Assets/Scotty1.jpg')} class = {"JHU3"} alt = "jonny hop helping person"/>
+    </span>    
+    </ParallaxLayer>
+    
+    <ParallaxLayer offset = {7.22} speed = {-.2}>
+    <span class = {"Scott3"}>
+        <img src={require('./Assets/Scotty3.jpg')} class = {"JHU3"} alt = "jonny hop helping person"/>
+    </span>    
+    </ParallaxLayer>
     
     
     
@@ -123,6 +134,7 @@ class Parralax extends React.Component {
     <img src={require('./Assets/aplc.png')} class = {"header3"} alt = "New York Apple Change"/>
     </Slideright>
     </ParallaxLayer>
+    
 
     
     <ParallaxLayer offset = {.2} speed = {-.1} style = {{ marginLeft: '80%'}}>
@@ -143,6 +155,18 @@ class Parralax extends React.Component {
     </div>    
     </ParallaxLayer>
     
+    <ParallaxLayer offset = {1.5} speed = {-.5} style = {{ marginLeft: '10%'}}>
+    <div class = {"header4"}>
+        <h3>
+    The journey starts in Hagerstown, MD, a small city in western Maryland. Here 
+    as the president of my schools NHS, I created an affiliation with local Boys and
+    Girls club to volunteer. Here I gained a deep appreaciation for helping others. 
+    Coming in almost everyday after school, I would teach math, help with english essays,
+    and most importantly talk to the kids of the club!
+    </h3>
+    </div>    
+    </ParallaxLayer>
+    
     <ParallaxLayer offset = {1.38} speed = {-.2} style = {{ marginLeft: '10%'}}>
 <h1>
 Hagerstown, MD
@@ -154,15 +178,80 @@ Hagerstown, MD
 New York, New York
 </h1>
     </ParallaxLayer>
+    <ParallaxLayer offset = {3.5} speed = {.5} style = {{ marginLeft: '15%'}}>
+    <div class = {"header4"}>
+        <h3>
+    During the summer of my Sophmore year at University I worked at NYU Langone health 
+    as intern where I worked with Doctors and patients. In the big apple, I explored real
+    healthcare workers interactions. Running into the street to take an iconic picture,
+    I made lifelong friends along the way.
+    </h3>
+    </div>    
+    </ParallaxLayer>
+    
+    
     <ParallaxLayer offset = {4.27} speed = {-.2} style = {{ marginLeft: '10%'}}>
 <h1>
 Academics
 </h1>
     </ParallaxLayer>
+    
+    <ParallaxLayer offset = {4.5} speed = {.6} style = {{ marginLeft: '15%'}}>
+    <div class = {"header4"}>
+        <h3>
+My academic journye begins in High School where I earned both the state and IB diploma. 
+Additionally I graduated as the valedictorian of my class. From here I my academic
+journey went to Johns Hopkins University. Here I'm majoring in Biology and creative
+writing. Behind this text is just a little glimpse into the academic work I do on a daily basis.
+    </h3>
+    </div>    
+    </ParallaxLayer>
+    
     <ParallaxLayer offset = {5.45} speed = {-.2} style = {{ marginLeft: '10%'}}>
 <h1>
 Johns Hopkins University
 </h1>
+    </ParallaxLayer>
+    
+    <ParallaxLayer offset = {5.48} speed = {-.3} style = {{ marginLeft: '15%'}}>
+    <div class = {"header4"}>
+        <h3>
+My academic journye begins in High School where I earned both the state and IB diploma. 
+Additionally I graduated as the valedictorian of my class. My academic
+journey then went to Johns Hopkins University where I'm majoring in Biology and Creative
+Writing. In addition to JHU's rigorous course classes I'm active in multiple clubs. Continuing
+with my previous experiences at the Boys and Girls Club of Hagerstown, I now tutor kids
+who are a apart of public school system in Baltimore.
+    </h3>
+    </div>    
+    </ParallaxLayer>
+    
+    <ParallaxLayer offset = {7.2} speed = {-.2} style = {{ marginLeft: '10%'}}>
+<h1>
+Scottland
+</h1>
+    </ParallaxLayer>
+    <ParallaxLayer offset = {7.5} speed = {-.3} style = {{ marginLeft: '15%'}}>
+        <div class = {"header4"}>
+<h3>
+I studied abroad in my Junior year in Scottland at St. Andrews University. I worked with
+some nursery or something.
+</h3>
+    </div>   
+    </ParallaxLayer>
+    
+    
+    <ParallaxLayer offset = {8.24} speed = {-.2}>
+    <span class = {"gorilla"}>
+        <img src={require('./Assets/Photo3.jpg')} class = {"gorilla"} alt = "gorillas r cool"/>
+    </span>    
+    </ParallaxLayer>
+    <ParallaxLayer offset = {8.6} speed = {-.2} style = {{ marginLeft: '10%'}}>
+        <div class = {"header5"}>
+<h4>
+That's all, time to swing into the future like this gorilla. 
+</h4>
+</div>
     </ParallaxLayer>
     
 
@@ -189,7 +278,18 @@ Johns Hopkins University
     </span>
 </ParallaxLayer>
          
-         
+    
+
+<ParallaxLayer offset = {9.8} speed = {-.2} style = {{ marginLeft: '30%'}}>
+    <div class = {"header5"}>
+    <span onClick={() => this.parallax.scrollTo(.1)}>
+        <h3>
+        Scroll back to the top by clicking me!
+        </h3>
+    </span>
+    </div>
+</ParallaxLayer>
+              
 
 
 <ParallaxLayer offset = {9.92} speed = {0}>
