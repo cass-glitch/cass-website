@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/cass-website/static/css/main.3849bb78.chunk.css",
+    "main.js": "/cass-website/static/js/main.08bba871.chunk.js",
+    "main.js.map": "/cass-website/static/js/main.08bba871.chunk.js.map",
+    "runtime-main.js": "/cass-website/static/js/runtime-main.0ad2859d.js",
+    "runtime-main.js.map": "/cass-website/static/js/runtime-main.0ad2859d.js.map",
+    "static/js/2.4cb4b4b9.chunk.js": "/cass-website/static/js/2.4cb4b4b9.chunk.js",
+    "static/js/2.4cb4b4b9.chunk.js.map": "/cass-website/static/js/2.4cb4b4b9.chunk.js.map",
+    "index.html": "/cass-website/index.html",
+    "precache-manifest.dcdd9197ede880f16ffd62538facfaa6.js": "/cass-website/precache-manifest.dcdd9197ede880f16ffd62538facfaa6.js",
+    "service-worker.js": "/cass-website/service-worker.js",
+    "static/css/main.3849bb78.chunk.css.map": "/cass-website/static/css/main.3849bb78.chunk.css.map",
+    "static/js/2.4cb4b4b9.chunk.js.LICENSE.txt": "/cass-website/static/js/2.4cb4b4b9.chunk.js.LICENSE.txt",
+    "static/media/Best_ChalkBoard.jpg": "/cass-website/static/media/Best_ChalkBoard.a346f997.jpg",
+    "static/media/Graduation.jpg": "/cass-website/static/media/Graduation.dd721d24.jpg",
+    "static/media/Helping.jpg": "/cass-website/static/media/Helping.17ff2ae0.jpg",
+    "static/media/JHU1.jpg": "/cass-website/static/media/JHU1.a64dfd8f.jpg",
+    "static/media/JHU2.jpg": "/cass-website/static/media/JHU2.285b1991.jpg",
+    "static/media/JHU3.JPG": "/cass-website/static/media/JHU3.2514efdb.JPG",
+    "static/media/Photo1.jpg": "/cass-website/static/media/Photo1.52828b3a.jpg",
+    "static/media/Photo2.jpg": "/cass-website/static/media/Photo2.82e54e96.jpg",
+    "static/media/Photo3.jpg": "/cass-website/static/media/Photo3.c3225b16.jpg",
+    "static/media/Photo4.jpg": "/cass-website/static/media/Photo4.544e1499.jpg",
+    "static/media/Photo7.jpg": "/cass-website/static/media/Photo7.b29fb75f.jpg",
+    "static/media/Photo8.jpg": "/cass-website/static/media/Photo8.7126bcb7.jpg",
+    "static/media/Photo9.jpg": "/cass-website/static/media/Photo9.3c581fc4.jpg",
+    "static/media/Scotty1.jpg": "/cass-website/static/media/Scotty1.e6d93fbf.jpg",
+    "static/media/Scotty3.jpg": "/cass-website/static/media/Scotty3.65106bb8.jpg",
+    "static/media/logo.svg": "/cass-website/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ad2859d.js",
+    "static/js/2.4cb4b4b9.chunk.js",
+    "static/css/main.3849bb78.chunk.css",
+    "static/js/main.08bba871.chunk.js"
+  ]
+}
