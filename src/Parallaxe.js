@@ -234,8 +234,8 @@ Scottland
     <ParallaxLayer offset = {7.5} speed = {-.3} style = {{ marginLeft: '15%'}}>
         <div class = {"header4"}>
 <h3>
-I studied abroad in my Junior year in Scottland at St. Andrews University. I worked with
-some nursery or something.
+I studied abroad in my Junior year in Scottland at St. Andrews University. I worked with a 
+childrens school, and we gave the kids teddy bears!
 </h3>
     </div>   
     </ParallaxLayer>
